@@ -1,0 +1,24 @@
+RIDGE/LASSO REGRESSION
+
+TRAINING DATA
+         mean  stdev   units
+bmi     26.37   9.22  kg/m^2
+weight  78.41  32.23      kg
+height   1.71   0.09       m
+age     31.62  11.65     yrs
+
+COEFFICIENTS
+           ridge  lasso  elastic net
+weight z    1.11   1.09         1.08
+height z   -0.24  -0.22        -0.22
+age z       0.02   0.02         0.02
+intercept   0.00   0.00         0.00
+
+SUMMARY
+                    ridge lasso elastic net
+total obs             741   741         741
+total covariates        3     3           3
+intercept              no    no          no
+adjusted R^2         0.97  0.97        0.97
+alpha (best)         1.07  0.01        0.01
+lasso weight (best)   n/a   n/a        0.07
